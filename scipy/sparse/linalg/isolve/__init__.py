@@ -3,6 +3,7 @@
 #from info import __doc__
 from .iterative import *
 from .minres import minres
+from .symmlq import symmlq
 from .lgmres import lgmres
 from .lsqr import lsqr
 from .lsmr import lsmr
