@@ -35,12 +35,13 @@ Using any of these subpackages requires an explicit import. For example,
  signal.windows               --- Window functions
  sparse                       --- Sparse Matrices
  sparse.linalg                --- Sparse Linear Algebra
- sparse.linalg.dsolve         --- Linear Solvers
+ sparse.linalg.dsolve         --- Sparse Direct Linear Solvers
  sparse.linalg.dsolve.umfpack --- :Interface to the UMFPACK library:
                                   Conjugate Gradient Method (LOBPCG)
  sparse.linalg.eigen          --- Sparse Eigenvalue Solvers
  sparse.linalg.eigen.lobpcg   --- Locally Optimal Block Preconditioned
                                   Conjugate Gradient Method (LOBPCG)
+ sparse.linalg.isolve         --- Iterative Linear Solvers
  spatial                      --- Spatial data structures and algorithms
  special                      --- Special functions
  stats                        --- Statistical Functions
